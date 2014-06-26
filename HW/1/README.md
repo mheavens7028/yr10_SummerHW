@@ -23,15 +23,15 @@ There are 30 marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+with ones and zeros
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+
 ```
 ###4 - Here is a function written is **pseudocode**.
 ```
@@ -47,12 +47,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+string
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+boolean
 ```
 
 ##Errors
@@ -69,28 +69,38 @@ line7:		OUTPT mean
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+7
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
 ```
-answer here
+a typo or mistake by the user
 ```
 
 (c) Identify a logical error in the program and suggest how this might be fixed. **(2 marks)**
 ```
-answer here
+you did not divide by the length of the numbers, to fix you can do the following instead of line 6
+mean <- tot / LEN(nums)
 ```
 
 (d) Describe and give an example of the 3rd kind of programming error. **(2 marks)**
 ```
-answer here
+A runtime error is an error that stop the program after it has been running fine.
 ```
 
 ##Algortithms
 ###7 - Write an **algorithm** that if given a list of numbers could find the largest. Try to use [pseudocode](http://filestore2.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-TRB-PSEU.PDF).
 ```
-answer here
+For I = 2 to N
+       J = I
+       Do while (J > 1) and (A(J) < A(J - 1)
+         Temp = A(J)
+         A(J) = A(J - 1)
+         A(J - 1) = Temp
+         J = J - 1 
+       End-Do
+     End-For
+     i got this from a website
 ```
 
 ##Networking
